@@ -1,0 +1,157 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nurse Hand MVP landing overview</title>
+  <desc id="desc">Nurse Hand service landing cover with mobile app screens for rounding records, patient timeline, task priority, and handoff verification.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="1130" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F8"/>
+      <stop offset="0.48" stop-color="#FDF6F8"/>
+      <stop offset="1" stop-color="#FFF4DF"/>
+    </linearGradient>
+    <radialGradient id="glowPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(898 174) rotate(135) scale(270 210)">
+      <stop stop-color="#FF7FCE" stop-opacity="0.34"/>
+      <stop offset="0.72" stop-color="#FFBFDA" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(162 682) rotate(-28) scale(310 180)">
+      <stop stop-color="#BEDBFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#610048" flood-opacity="0.14"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#3A1132" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title { font: 800 74px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; letter-spacing: -2px; fill: #1F2233; }
+      .subtitle { font: 600 24px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; letter-spacing: -0.7px; fill: #5D5E5F; }
+      .eyebrow { font: 800 17px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; letter-spacing: 3px; fill: #FF5CA0; }
+      .label { font: 800 22px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; fill: #1F2233; }
+      .body { font: 600 15px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; fill: #6B6F80; }
+      .tiny { font: 700 12px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; fill: #A0A4B4; }
+      .phoneTitle { font: 800 18px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; fill: #2F3131; }
+      .phoneBody { font: 600 14px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; fill: #5D5E5F; }
+      .chip { font: 800 12px "Pretendard", "Apple SD Gothic Neo", "Segoe UI", sans-serif; }
+      .mono { font: 700 13px "SFMono-Regular", "Consolas", monospace; fill: #6B6F80; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" rx="44" fill="url(#bg)"/>
+  <rect width="1200" height="800" rx="44" fill="url(#glowPink)"/>
+  <rect width="1200" height="800" rx="44" fill="url(#glowBlue)"/>
+
+  <circle cx="1080" cy="78" r="108" fill="#FFE9F2"/>
+  <circle cx="996" cy="176" r="52" fill="#FFF0CA"/>
+  <circle cx="126" cy="148" r="66" fill="#FFFFFF" fill-opacity="0.66"/>
+
+  <g transform="translate(72 84)">
+    <text class="eyebrow" x="0" y="0">AI NURSING WORKFLOW</text>
+    <text class="title" x="0" y="88">Nurse Hand</text>
+    <text class="subtitle" x="4" y="136">환자 파악부터 인수인계까지,</text>
+    <text class="subtitle" x="4" y="171">근무 흐름을 연결하는 간호사 AI</text>
+
+    <g transform="translate(0 232)" filter="url(#softShadow)">
+      <rect x="0" y="0" width="194" height="56" rx="28" fill="#FF5CA0"/>
+      <text x="26" y="35" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="16" font-weight="800" fill="white">라운딩 시작</text>
+      <circle cx="154" cy="28" r="15" fill="#FFE9F2"/>
+      <path d="M154 19v14M148 27c0 4 3 7 6 7s6-3 6-7" stroke="#FF5CA0" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(218 232)">
+      <rect x="0" y="0" width="238" height="56" rx="28" fill="white"/>
+      <text x="24" y="35" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="16" font-weight="800" fill="#1F2233">인수인계 누락 검증</text>
+      <path d="M196 18l12 12-12 12" stroke="#FF5CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(71 507)">
+    <rect width="458" height="168" rx="28" fill="white" filter="url(#softShadow)"/>
+    <text class="label" x="32" y="46">핵심 MVP</text>
+    <g transform="translate(32 70)">
+      <rect width="104" height="34" rx="17" fill="#FFE9F2"/>
+      <text class="chip" x="18" y="22" fill="#DD0AA8">기록 수집</text>
+      <rect x="118" width="104" height="34" rx="17" fill="#EFF6FF"/>
+      <text class="chip" x="135" y="22" fill="#155DFC">환자 연결</text>
+      <rect x="236" width="106" height="34" rx="17" fill="#FFFBEB"/>
+      <text class="chip" x="253" y="22" fill="#E17100">우선순위</text>
+    </g>
+    <text class="body" x="32" y="128">한 번 남긴 라운딩 기록을 환자별 타임라인과 업무,</text>
+    <text class="body" x="32" y="151">인수인계 초안의 근거로 재사용합니다.</text>
+  </g>
+
+  <g transform="translate(575 96)" filter="url(#shadow)">
+    <rect x="0" y="0" width="250" height="542" rx="42" fill="#111111"/>
+    <rect x="12" y="12" width="226" height="518" rx="34" fill="#FFF8F8"/>
+    <rect x="89" y="27" width="73" height="7" rx="3.5" fill="#151515"/>
+    <text x="39" y="73" class="phoneTitle">라운딩 기록</text>
+    <rect x="57" y="102" width="136" height="56" rx="28" fill="white"/>
+    <circle cx="125" cy="130" r="28" fill="#FFE4EF"/>
+    <path d="M125 116v21M116 128c0 8 4 14 9 14s9-6 9-14" stroke="#FF5CA0" stroke-width="4" stroke-linecap="round"/>
+    <rect x="12" y="198" width="226" height="332" rx="30" fill="white"/>
+    <line x1="50" y1="341" x2="200" y2="341" stroke="#E2E2E2"/>
+    <rect x="99" y="360" width="52" height="26" rx="13" fill="white" stroke="#E2E2E2"/>
+    <text x="111" y="377" class="tiny">09:15</text>
+    <rect x="32" y="401" width="186" height="86" rx="18" fill="#F5F5F5"/>
+    <text x="52" y="429" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="15" font-weight="800" fill="#DD0AA8">NurseHand</text>
+    <text x="52" y="456" class="phoneBody">메모나 사진을 추가하면</text>
+    <text x="52" y="478" class="phoneBody">AI가 기록을 정리해요.</text>
+  </g>
+
+  <g transform="translate(748 192)" filter="url(#shadow)">
+    <rect x="0" y="0" width="254" height="498" rx="42" fill="#111111"/>
+    <rect x="12" y="12" width="230" height="474" rx="34" fill="#FDF6F8"/>
+    <rect x="87" y="27" width="80" height="7" rx="3.5" fill="#151515"/>
+    <text x="36" y="73" class="phoneTitle">환자 타임라인</text>
+    <rect x="31" y="98" width="192" height="105" rx="24" fill="white"/>
+    <text x="51" y="127" class="tiny">805호</text>
+    <text x="51" y="155" class="phoneTitle">김○○</text>
+    <rect x="119" y="137" width="58" height="24" rx="12" fill="#FFE9F2"/>
+    <text x="130" y="154" class="chip" fill="#FF5CA0">주의</text>
+    <line x1="51" y1="178" x2="202" y2="178" stroke="#F5F2F4"/>
+    <text x="51" y="190" class="tiny">복부 수술 후 통증 관찰</text>
+    <rect x="31" y="224" width="192" height="238" rx="24" fill="white"/>
+    <text x="51" y="257" class="phoneTitle">하루 AI 요약</text>
+    <rect x="51" y="281" width="150" height="9" rx="4.5" fill="#FFE9F2"/>
+    <rect x="51" y="303" width="128" height="9" rx="4.5" fill="#FFE9F2"/>
+    <g transform="translate(51 340)">
+      <circle cx="6" cy="6" r="6" fill="#FF5CA0"/>
+      <rect x="24" y="0" width="132" height="10" rx="5" fill="#EDEFF5"/>
+      <rect x="24" y="24" width="112" height="10" rx="5" fill="#EDEFF5"/>
+      <circle cx="6" cy="70" r="6" fill="#3B82F6"/>
+      <rect x="24" y="64" width="142" height="10" rx="5" fill="#EDEFF5"/>
+      <rect x="24" y="88" width="94" height="10" rx="5" fill="#EDEFF5"/>
+    </g>
+  </g>
+
+  <g transform="translate(929 96)" filter="url(#shadow)">
+    <rect x="0" y="0" width="250" height="542" rx="42" fill="#111111"/>
+    <rect x="12" y="12" width="226" height="518" rx="34" fill="#FDF6F8"/>
+    <rect x="89" y="27" width="73" height="7" rx="3.5" fill="#151515"/>
+    <text x="37" y="73" class="phoneTitle">인수인계</text>
+    <rect x="31" y="96" width="188" height="44" rx="20" fill="white"/>
+    <circle cx="52" cy="118" r="4" fill="#FF5CA0"/>
+    <text x="66" y="123" class="phoneBody">이전 근무자 인계 있음</text>
+    <rect x="31" y="160" width="188" height="132" rx="24" fill="#FF5CA0"/>
+    <text x="52" y="199" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="800" fill="white">오늘의 인수인계</text>
+    <text x="52" y="229" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="600" fill="#FFE4F1">라운딩 내역 기반</text>
+    <text x="52" y="249" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="600" fill="#FFE4F1">초안을 생성해요</text>
+    <rect x="52" y="263" width="82" height="28" rx="14" fill="#FFE9F2"/>
+    <text x="70" y="282" class="chip" fill="#FF5CA0">생성하기</text>
+    <rect x="31" y="313" width="188" height="163" rx="24" fill="white"/>
+    <text x="52" y="346" class="phoneTitle">확인 필요</text>
+    <rect x="52" y="366" width="128" height="29" rx="14.5" fill="#FEF2F2" stroke="#FFC9C9"/>
+    <text x="69" y="386" class="chip" fill="#E7000B">환자 미매칭 1건</text>
+    <rect x="52" y="407" width="122" height="29" rx="14.5" fill="#F5F3FF" stroke="#DDD6FF"/>
+    <text x="70" y="427" class="chip" fill="#7F22FE">AI 추정 2건</text>
+  </g>
+
+  <g transform="translate(610 660)">
+    <path d="M0 0H112" stroke="#FF5CA0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M96 -13L113 0L96 13" stroke="#FF5CA0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M154 0H266" stroke="#FF5CA0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M250 -13L267 0L250 13" stroke="#FF5CA0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="mono" x="-5" y="42">record</text>
+    <text class="mono" x="143" y="42">timeline</text>
+    <text class="mono" x="298" y="42">handoff</text>
+  </g>
+</svg>
