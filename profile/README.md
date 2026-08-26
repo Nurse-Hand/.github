@@ -1,5 +1,9 @@
 ![Nurse Hand app screens](./assets/nurse-hand-hero.png)
 
+<p align="center">
+  <img src="./assets/nurse-hand-demo.gif" alt="Nurse Hand demo video" width="280" />
+</p>
+
 <h1 align="center">Nurse Hand</h1>
 
 <p align="center">
