@@ -1,5 +1,9 @@
 ![Nurse Hand pitch cover](./assets/nurse-hand-hero.png)
 
+<p align="center">
+  <img src="./assets/nurse-hand-demo.gif" alt="Nurse Hand demo video" width="280" />
+</p>
+
 ![Nurse Hand pitch slide 01](./assets/slides/slide-01.jpg)
 
 ![Nurse Hand pitch slide 02](./assets/slides/slide-02.jpg)
