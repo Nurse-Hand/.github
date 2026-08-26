@@ -4,6 +4,10 @@
   <img src="./assets/nurse-hand-demo.gif" alt="Nurse Hand demo video" width="280" />
 </p>
 
+<p align="center">
+  <a href="https://expo.dev/accounts/ayeongkwon/projects/nurse-hand/builds/170a4039-6a58-4b77-a75a-3a1e4e3ca68b">Download Demo App</a>
+</p>
+
 ![Nurse Hand pitch slide 01](./assets/slides/slide-01.jpg)
 
 ![Nurse Hand pitch slide 02](./assets/slides/slide-02.jpg)
